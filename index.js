@@ -8,7 +8,7 @@ const APPLICATION_CREDENTIALS = {
   authSecret: "...",
 };
 
-ConnectyCube.init(APPLICATION_CREDENTIALS);
+Connectycube.init(APPLICATION_CREDENTIALS);
 
 // Connect to Real-Time Chat
 const BOT_USER_CREDENTIALS = {
