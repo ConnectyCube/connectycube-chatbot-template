@@ -1,0 +1,23 @@
+{
+  "name": "connectycube-chatbot-template",
+  "version": "1.0.0",
+  "description": "This is a basic template to start with when develop chat bots apps with ConnectyCube",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ConnectyCube/connectycube-chatbot-template.git"
+  },
+  "author": "",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/ConnectyCube/connectycube-chatbot-template/issues"
+  },
+  "homepage": "https://github.com/ConnectyCube/connectycube-chatbot-template#readme",
+  "dependencies": {
+    "connectycube": "^3.9.1"
+  }
+}
