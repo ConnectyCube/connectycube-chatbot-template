@@ -8,7 +8,11 @@ const APPLICATION_CREDENTIALS = {
   authSecret: "...",
 };
 
-Connectycube.init(APPLICATION_CREDENTIALS);
+const CONFIG = {
+  debug: { mode: 1 }, // enable DEBUG mode (mode 0 is logs off, mode 1 -> console.log())
+};
+
+Connectycube.init(APPLICATION_CREDENTIALS, CONFIG);
 
 // Connect to Real-Time Chat
 const BOT_USER_CREDENTIALS = {
